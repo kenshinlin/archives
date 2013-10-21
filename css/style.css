@@ -1,0 +1,20 @@
+.wrap{
+  width:80%;
+  margin:0 auto;
+}
+.content{
+  float: left;
+  width: 75%;
+}
+.info{
+  float:left;
+}
+.info_section{
+  padding:5px;
+}
+.share{
+  margin-top:8px;
+}
+.comment{
+  margin-top:8px;
+}
