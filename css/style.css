@@ -46,5 +46,8 @@ a:hover{
     text-align:center;
     width:100%;
   }
+  .info_section{
+    padding:10px 0;
+  }
 }
 
