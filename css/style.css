@@ -23,9 +23,13 @@
 @media screen and (max-width:768px){
   .wrap{
     width:100%;
+    padding-top:50px;
+    position:relative;
   }
   .info{
-    float:left;
-    width:100%;
+    position:absolute;
+    min-height:50px;
+    top:0;
+    left:0;
   }
 }
