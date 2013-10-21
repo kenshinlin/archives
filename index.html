@@ -1,11 +1,10 @@
 ---
 layout: sketch
-title: 第一篇Blog
+title: 最新文章
 isindex: 1
 ---
 
 <h2>{{ page.title }}</h2>
-　<p>最新文章</p>
 <ul>
 　　{% for post in site.posts %}
 　　        <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
