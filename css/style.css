@@ -1,3 +1,4 @@
+@media screen and ( min-width:768px ){
 .wrap{
   width:80%;
   margin:0 auto;
@@ -17,4 +18,14 @@
 }
 .comment{
   margin-top:8px;
+}
+}
+@media screen and (max-width:768px){
+  .wrap{
+    width:100%;
+  }
+  .info{
+    float:left;
+    width:100%;
+  }
 }
