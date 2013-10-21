@@ -5,13 +5,15 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>{{ page.title }}</title>
-     <link rel="stylesheet" type="text/css" href="/css/style.css">
+     <link rel="stylesheet" type="text/css" href="/archives/css/style.css">
 </head>
 　　<body>
              <div class="wrap">
                  <div class="content">
 　　　　   {{ content }}
 　　　　   
+　　　　   {% if page.isindex %}
+　　　　   {% else %}
 　　　　   <!-- 加网分享 -->
 　　　　   <div class="share">
 　　　　   	<div class="jiathis_style_32x32">
@@ -25,12 +27,16 @@
 　　　　   
 　　　　   <!--友言评论-->
 　　　　   <div id="uyan_frame"></div>
+　　　　   
+　　　　   {% endif %}
                  </div>
                 <div class="info">
                      <div class="info_section">
                             啃神
                       </div>
                 </div>
+{% if page.isindex %}
+{% else %}
 <!-- JiaThis Button BEGIN -->
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1347936857878760" charset="utf-8"></script>
 <!-- JiaThis Button END -->
@@ -38,5 +44,6 @@
  <!-- UY BEGIN -->
 <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1854562"></script>
 <!-- UY END -->
+{% endif %}
 　　</body>
 </html>
