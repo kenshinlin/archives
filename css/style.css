@@ -9,6 +9,7 @@
 }
 .info{
   float:left;
+  margin-left:8px;
 }
 .info_section{
   padding:5px;
