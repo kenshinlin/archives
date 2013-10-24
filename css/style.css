@@ -38,7 +38,7 @@ clear:both;
 font-size:12px;
 }
 body{
-  font-family: palatino,'times new roman', serif;
+  font-family: 'palatino,"times new roman", serif';
   font-size: 13px;
   color: #222;
 }
