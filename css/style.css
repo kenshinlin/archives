@@ -1,6 +1,7 @@
-a:hover{
-  color:#9c6;
-}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,img { margin:0; padding:0; }
+a{ color:#259; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out; }
+a:hover {color:#9c6}
+li{list-style:none;}
 body{
   font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
   line-height: 1.7;
@@ -26,9 +27,6 @@ body{
 }
 .info_section a{
   color:#666;
-  -webkit-transition:color 0.2s ease-in-out;
-  -moz-transition:color 0.2s ease-in-out;
-  transition:color 0.2s ease-in-out;
 }
 .share{
   margin-top:8px;
@@ -61,9 +59,6 @@ body{
 .idx-article-list h2{
   font-size: 14px;
   position:relative;
-}
-.idx-article-list a{
-  color:#259;
 }
 
 }
