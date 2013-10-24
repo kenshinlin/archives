@@ -159,14 +159,14 @@ box-shadow: 1px 1px 4px 0px #999;
   .share{
     background: #fff;
 padding: 0 3px 10px;
-margin: -3px 3px 0px;
+margin: -5px 3px 0px;
 box-shadow: 1px 1px 4px 0px #999;
 -webkit-box-shadow:1px 1px 4px 0px #999;
   }
   #disqus_thread{
     background: #fff;
 padding: 10px 5px 10px;
-margin: -3px 3px 10px;
+margin: -5px 3px 10px;
 box-shadow: 1px 1px 4px 0px #999;
 -webkit-box-shadow:1px 1px 4px 0px #999;
   }
