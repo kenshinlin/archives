@@ -84,6 +84,9 @@ body{
 .excerpt{
     padding-top:10px;
 }
+.excerpt p{
+  color:#999;
+}
 p{
     padding-top:10px;
 }
