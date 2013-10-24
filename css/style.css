@@ -47,10 +47,14 @@ body{
   border-top: 1px solid #eee;
   padding: 10px 0;
   margin-left: 0;
+  position:relative;
   /*outline: */
 }
 .idx-post-data{
   color: #999;
+  position:absolute;
+  right:0;
+  top:0;
 }
 
 .idx-article-list h2{
