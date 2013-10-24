@@ -8,11 +8,13 @@ isindex: 1
 <ul class="idx-article-list">
 　　{% for post in site.posts %}
 　　    <li>
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				<span class="idx-post-data">{{ post.date | date_to_string }}</span>
+			</h2>
 			<div class="excerpt">
 				{{ post.excerpt }}
 			</div>
-			<span class="idx-post-data">{{ post.date | date_to_string }}</span>
 		</li>
 　　{% endfor %}
 </ul>
