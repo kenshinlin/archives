@@ -20,13 +20,14 @@ a:hover {color:#9c6}
 }
 .article p, .article ul{
   padding:0 3px;
-  line-height:1.5;
+  line-height:1.7;
   margin:1.6em 0;
-  font-size:14px;
+  font-size:15px;
 }
 .article h2, .article h1{
   line-height:1.7;
-  font-family: '"Helvetica Neue",Helvetica,Arial,Sans-serif';
+  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+  font-weight:normal;
 }
 p.copyright{
   padding: 8em 0 1em 0;
@@ -37,7 +38,7 @@ clear:both;
 font-size:12px;
 }
 body{
-  font-family: 'palatino, "times new roman", serif';
+  font-family: palatino,'times new roman', serif;
   font-size: 13px;
   color: #222;
 }
