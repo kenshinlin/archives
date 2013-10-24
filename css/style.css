@@ -18,8 +18,12 @@ a:hover {color:#9c6}
 .avatar span{
   vertical-align:middle;
 }
-.article p, .article h2, .article h1, .article ul{
-  padding:10px 5px;
+.article p, .article ul{
+  padding:0 3px;
+  line-height:1.5;
+}
+.article h2, .article h1{
+  line-height:1.7;
 }
 body{
   font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
