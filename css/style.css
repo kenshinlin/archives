@@ -79,6 +79,10 @@ p{
   .wrap, h2{
     font-weight:normal;
   }
+  .excerpt{
+    font-size:13px;
+    color:#999;
+  }
   
   .idx-post-data{
   color: #999;
