@@ -1,6 +1,12 @@
 a:hover{
   color:#9c6;
 }
+body{
+  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+  color: #222;
+}
 
 @media screen and ( min-width:768px ){
 .wrap{
@@ -30,6 +36,23 @@ a:hover{
 .comment{
   margin-top:8px;
 }
+
+/*index*/
+.idx-title-block h1{
+  font-size: 14px;
+}
+
+.idx-article-list li{
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+  margin-left: 0;
+  /*outline: */
+}
+
+.idx-article-list h2{
+  font-size: 14px;
+}
+
 }
 @media screen and (max-width:768px){
   .wrap{
