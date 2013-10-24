@@ -8,6 +8,15 @@ table{border-collapse:collapse;border-spacing:0}
 
 a{ text-decoration:none;color:#259; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out; }
 a:hover {color:#9c6}
+pre{
+  background-color: #f8f8f8;
+border: 1px solid #ddd;
+font-size: 13px;
+line-height: 19px;
+overflow: auto;
+padding: 6px 10px;
+border-radius: 3px;
+}
 
 .avatar img{
   height:25px;
