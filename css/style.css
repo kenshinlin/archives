@@ -47,6 +47,11 @@ body{
   float: left;
   width: 75%;
 }
+  .avatar span{
+    color: rgba(34,59,74,.4);
+font-weight: 600;
+font-size: 14px;
+  }
 .info{
   float:left;
   margin-left:48px;
@@ -114,6 +119,12 @@ p{
   .excerpt{
     font-size:13px;
     color:#999;
+  }
+  
+  .avatar span{
+    color: rgba(78, 37, 241, 0.4);
+font-weight: 600;
+font-size: 14px;
   }
   
   .idx-post-data{
