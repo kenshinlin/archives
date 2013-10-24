@@ -21,12 +21,12 @@ a:hover {color:#9c6}
 .article p, .article ul{
   padding:0 3px;
   line-height:1.5;
-  margin:1.6em;
-  font-size:1.6em;
+  margin:1.6em 0;
+  font-size:14px;
 }
 .article h2, .article h1{
   line-height:1.7;
-  font-family: 'Helvetica Neue,Helvetica,Arial,Sans-serif';
+  font-family: '"Helvetica Neue",Helvetica,Arial,Sans-serif';
 }
 p.copyright{
   padding: 8em 0 1em 0;
