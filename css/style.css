@@ -1,4 +1,4 @@
-html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,img { margin:0; padding:0; }
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,img,ul,li { margin:0; padding:0; }
 a{ color:#259; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out; }
 a:hover {color:#9c6}
 li{list-style:none;}
