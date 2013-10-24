@@ -11,10 +11,12 @@
 　　<body>
              <div class="wrap idx-wrap">
                  <div class="content">
-　　　　   <div class="article">{{ content }}</div>
+　　　　   
 　　　　   
 　　　　   {% if page.isindex %}
+　　　　   	{{content}}
 　　　　   {% else %}
+　　　　   <div class="article">{{ content }}</div>
 　　　　   <!-- 加网分享 -->
 　　　　   <div class="share">
 　　　　   	<div class="jiathis_style">
