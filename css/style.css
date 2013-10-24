@@ -77,6 +77,14 @@ p{
 }
 @media screen and (max-width:768px){
   .wrap{
+    font-weight:normal;
+  }
+  .idx-post-data{
+  color: #999;
+  margin-left:8px;
+  font-size:12px;
+  }
+  .wrap{
     width:100%;
     padding-top:30px;
     position:relative;
