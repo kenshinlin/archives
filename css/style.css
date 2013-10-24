@@ -21,9 +21,12 @@ a:hover {color:#9c6}
 .article p, .article ul{
   padding:0 3px;
   line-height:1.5;
+  margin:1.6em;
+  font-size:1.6em;
 }
 .article h2, .article h1{
   line-height:1.7;
+  font-family: 'Helvetica Neue,Helvetica,Arial,Sans-serif';
 }
 p.copyright{
   padding: 8em 0 1em 0;
@@ -31,12 +34,14 @@ text-align: center;
 position: relative;
 color: rgba(0,0,0,0.3);
 clear:both;
+font-size:12px;
 }
 body{
-  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+  font-family: 'palatino, "times new roman", serif';
   font-size: 13px;
   color: #222;
 }
+.article 
 
 @media screen and ( min-width:768px ){
 .wrap{
