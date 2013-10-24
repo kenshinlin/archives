@@ -47,7 +47,6 @@ body{
   border-top: 1px solid #eee;
   padding: 10px 0;
   margin-left: 0;
-  position:relative;
   /*outline: */
 }
 .idx-post-data{
@@ -55,10 +54,13 @@ body{
   position:absolute;
   right:0;
   top:0;
+  font-size:13px;
+  font-weight:normal;
 }
 
 .idx-article-list h2{
   font-size: 14px;
+  position:relative;
 }
 .idx-article-list a{
   color:#259;
