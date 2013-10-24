@@ -95,7 +95,9 @@ p{
 @media screen and (max-width:768px){
   body .wrap, h2{
     font-weight:normal;
-    background:#E4F0F8;
+  }
+  body .wrap{
+     background:#E4F0F8;
   }
   .excerpt{
     font-size:13px;
