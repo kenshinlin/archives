@@ -30,6 +30,7 @@ p.copyright{
 text-align: center;
 position: relative;
 color: rgba(0,0,0,0.3);
+clear:both;
 }
 body{
   font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
