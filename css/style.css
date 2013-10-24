@@ -9,16 +9,16 @@ table{border-collapse:collapse;border-spacing:0}
 a{ color:#259; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out; }
 a:hover {color:#9c6}
 
-.avater{
+.avatar{
   text-decoration:none;
 }
-.avater img{
+.avatar img{
   height:25px;
   width:25px;
   margin-right:5px;
   vertical-align:middle;
 }
-.avater span{
+.avatar span{
   vertical-align:middle;
 }
 
