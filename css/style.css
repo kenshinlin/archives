@@ -93,7 +93,7 @@ p{
 
 }
 @media screen and (max-width:768px){
-  .wrap, h2{
+  body .wrap, h2{
     font-weight:normal;
     background:#E4F0F8;
   }
