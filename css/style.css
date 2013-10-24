@@ -39,7 +39,8 @@ body{
 
 /*index*/
 .idx-title-block h1{
-  font-size: 14px;
+  font-size: 18px;
+  color:#666;
 }
 
 .idx-article-list li{
@@ -54,6 +55,9 @@ body{
 
 .idx-article-list h2{
   font-size: 14px;
+}
+.idx-article-list a{
+  color:#259;
 }
 
 }
