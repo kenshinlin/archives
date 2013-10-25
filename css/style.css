@@ -27,7 +27,7 @@ border-radius: 3px;
 .avatar span{
   vertical-align:middle;
 }
-.article p, .article ul{
+.article p, .article ul, .article ol{
   padding:0 3px;
   line-height:1.7;
   margin:1.6em 0;
