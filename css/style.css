@@ -79,12 +79,12 @@ body{
 
 @media screen and ( min-width:768px ){
 .wrap{
-  width:65%;
+  width:960px;
   margin:-15px auto;
 }
 .content{
   float: left;
-  width: 75%;
+  width: 632px;
 }
   .avatar span{
     color: rgba(34,59,74,.4);
@@ -93,7 +93,7 @@ font-size: 14px;
   }
 .info{
   float:left;
-  margin-left:38px;
+  margin-left:48px;
 }
 .info_section{
   margin-top:10px;
