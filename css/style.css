@@ -177,6 +177,8 @@ font-size: 14px;
     top:0;
     left:0;
     background-image:linear-gradient(#fff, #ECEBEB);
+    background-image:-webkit-linear-gradient(#fff, #ECEBEB);
+    background-image:-moz-linear-gradient(#fff, #ECEBEB);
     text-align:center;
     width:100%;
   }
