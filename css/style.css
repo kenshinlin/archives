@@ -146,6 +146,12 @@ font-size: 14px;
 p{
     padding-top:10px;
 }
+.flink-wrap{
+  margin-top:15px;
+}
+.flink{
+  border-bottom:1px solid #eee;
+}
 
 }
 @media screen and (max-width:768px){
@@ -158,6 +164,9 @@ p{
   .excerpt{
     font-size:13px;
     color:#999;
+  }
+  .flink-wrap{
+    display:none;
   }
   
   .avatar span{
