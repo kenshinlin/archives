@@ -152,6 +152,16 @@ p{
 .flink{
   border-bottom:1px solid #eee;
 }
+.flink-wrap ul{
+  border-top:2px solid #eee;
+}
+
+.flink-wrap span{
+  /*color: rgba(34,59,74,.4);*/
+  font-weight: 600;
+  font-size: 14px;
+}
+
 
 }
 @media screen and (max-width:768px){
