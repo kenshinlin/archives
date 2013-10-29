@@ -150,14 +150,17 @@ p{
   margin-top:15px;
 }
 .flink{
-  border-bottom:1px solid #eee;
+padding-bottom: 3px;
+border-bottom: 1px solid #eee;
+margin-bottom: 5px;
 }
 .flink-wrap ul{
-  border-top:2px solid #eee;
+border-top: 2px solid #eee;
+padding: 10px 0;
 }
 
 .flink-wrap span{
-  /*color: rgba(34,59,74,.4);*/
+  color: rgba(34,59,74,.4);
   font-weight: 600;
   font-size: 14px;
 }
