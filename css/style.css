@@ -59,6 +59,9 @@ blockquote{
   font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
   font-weight:normal;
 }
+.article h2{
+  margin-top: 1.6em;
+}
 p.copyright{
   padding: 8em 0 1em 0;
 text-align: center;
