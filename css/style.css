@@ -140,7 +140,7 @@ font-size: 14px;
 .excerpt{
     padding-top:10px;
 }
-.excerpt p{
+.excerpt p, .excerpt{
   color:#999;
 }
 p{
