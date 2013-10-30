@@ -13,7 +13,7 @@ isindex: 1
 				<span class="idx-post-data">{{ post.date | date: "%Y年%m月%d日"}}</span>
 			</h2>
 			<div class="excerpt">
-				{{ post.content | strip_html | truncate: 100 | replace: post.title, '' }}
+				{{ post.content | strip_html | truncate: 50 | replace: post.title, '' }}
 			</div>
 		</li>
 　　{% endfor %}
