@@ -111,7 +111,7 @@ font-size: 14px;
   left: 960px;
 }
 .info:before, .wrap:after{
-  background: url("data:data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AA…BU6S3AAAAG0lEQVQImWNggAEmEGBkZEJjAAESAyiMxoACAAzwAGnXyNREAAAAAElFTkSuQmCC");
+  background: url("../img/bgr.png");
   bottom: 0;
   content: " ";
   z-index: -1;
