@@ -17,15 +17,14 @@
 　　　　   	{{content}}
 　　　　   {% else %}
 　　　　   <div class="article">{{ content }}</div>
-　　　　   <!-- 加网分享 -->
+
 　　　　   <div class="share">
-　　　　   	<div class="jiathis_style">
-	         <a class="jiathis_button_qzone"></a>
-	         <a class="jiathis_button_tsina"></a>
-	        <a class="jiathis_button_weixin"></a>
-	        <a href="http://www.jiathis.com/share?uid=1854562" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-	         <a class="jiathis_counter_style"></a>
-               </div>
+　　　　   	<!-- Baidu Button BEGIN -->
+              <div id="bdshare" class="bdshare_b" style="line-height: 12px;">
+                <img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg?cdnversion=20120831" />
+                <a class="shareCount"></a>
+              </div>
+              <!-- Baidu Button END -->
 　　　　   </div>
 　　　　   
 　　　　   <!--disqus_thread-->
@@ -72,13 +71,6 @@
 </p>
 {% if page.isindex %}
 {% else %}
-<!-- JiaThis Button BEGIN -->
-<script type="text/javascript">
-var jiathis_config = {data_track_clickback:'true'};
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1347936857878760" charset="utf-8"></script>
-<!-- JiaThis Button END -->
- 
     
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -93,6 +85,11 @@ var jiathis_config = {data_track_clickback:'true'};
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
+    <script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=6852625" ></script>
+    <script type="text/javascript" id="bdshell_js"></script>
+    <script type="text/javascript">
+      document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
     
 {% endif %}
 <script>
