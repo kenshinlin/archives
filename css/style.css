@@ -112,7 +112,7 @@ font-size: 14px;
   padding:0 10px 20px 20px;
 }
 .info:before{
-    border-left: 1px solid gray;
+    border-left: 1px solid #ddd;
   -moz-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   -webkit-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   box-shadow: inset 20px 0 20px -20px #e4e4e4;
