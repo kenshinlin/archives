@@ -88,6 +88,9 @@ visibility: hidden;
 }
 
 @media screen and ( min-width:768px ){
+  .main_wrap{
+    overflow-x: hidden;
+  }
 .wrap{
   width:960px;
   margin:-15px auto;
@@ -109,7 +112,7 @@ font-size: 14px;
   padding:0 10px 20px 20px;
 }
 .info:before{
-    border-left: 1px solid #ddd;
+    border-left: 1px solid gray;
   -moz-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   -webkit-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   box-shadow: inset 20px 0 20px -20px #e4e4e4;
@@ -117,7 +120,7 @@ font-size: 14px;
   left: 650px;
 }
 .info:before, .wrap:after{
-  background: url("../img/bgr.png");
+  background: url("/img/bgr.png");
   bottom: 0;
   content: " ";
   z-index: -1;
@@ -189,7 +192,7 @@ padding-bottom: 3px;
 margin-bottom: 5px;
 }
 .flink-wrap ul{
-border-top: 2px solid #eee;
+border-top: 2px solid gray;
 padding: 10px 0;
 margin-top:5px;
 }
