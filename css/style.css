@@ -106,7 +106,8 @@ font-size: 14px;
   color:#666;
 }
 .share{
-  margin-top:8px;
+  /*margin-top:8px;*/
+  overflow: hidden;
 }
 .comment{
   margin-top:8px;
@@ -237,9 +238,10 @@ box-shadow: 1px 1px 4px 0px #999;
   .share{
     background: #fff;
 padding: 0 3px 10px;
-margin: -5px 3px 0px;
+margin: 0 3px;
 box-shadow: 1px 1px 4px 0px #999;
 -webkit-box-shadow:1px 1px 4px 0px #999;
+overflow: hidden;
   }
   #disqus_thread{
     background: #fff;
