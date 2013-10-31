@@ -79,12 +79,19 @@ body{
   font-size:14px;
   font-weight:normal;
 }
+.clear{
+  clear: both;
+content: " ";
+display: block;
+height: 0;
+visibility: hidden;
+}
 
 @media screen and ( min-width:768px ){
 .wrap{
   width:960px;
   margin:-15px auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
   position: relative;
 }
 .content{
@@ -106,9 +113,8 @@ font-size: 14px;
   -moz-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   -webkit-box-shadow: inset 20px 0 20px -20px #e4e4e4;
   box-shadow: inset 20px 0 20px -20px #e4e4e4;
-  position: relative;
   right: 0;
-  left: 960px;
+  left: 650px;
 }
 .info:before, .wrap:after{
   background: url("../img/bgr.png");
