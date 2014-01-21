@@ -6,7 +6,6 @@ title:  「摘」番茄时间管理法
 # {{page.title}}
 <div class="post-date">{{ page.date | date: "%Y年%m月%d日"}}</div>
 
-引用：
 >  摘自[外刊IT评论](http://www.aqee.net/pomodoro-technique/)，实践一下
 
 基本上，它的实施方法是这样的：
