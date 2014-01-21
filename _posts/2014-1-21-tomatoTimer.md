@@ -14,3 +14,5 @@ title:  「摘」番茄时间管理法
 3. 工作，直到定时器时间到：这就是一个“番茄钟”。
 4. 休息5分钟，继续下一个番茄钟
 5. 每4个番茄钟做一次长时间的休息。
+
+更多内容看[这里](http://beenhero.com/improve-remote-work-productivity/)
