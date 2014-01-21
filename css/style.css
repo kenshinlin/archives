@@ -88,9 +88,6 @@ visibility: hidden;
 }
 
 @media screen and ( min-width:768px ){
-  .main_wrap{
-    overflow-x: hidden;
-  }
 .wrap{
   width:960px;
   margin:-15px auto;
@@ -111,26 +108,7 @@ font-size: 14px;
   margin-left:18px;
   padding:15px 10px 20px 20px;
 }
-.info:before{
-    /*border-left: 1px solid #ddd;*/
-  /*-moz-box-shadow: inset 20px 0 20px -20px #e4e4e4;*/
-  /*-webkit-box-shadow: inset 20px 0 20px -20px #e4e4e4;*/
-  /*box-shadow: inset 20px 0 20px -20px #e4e4e4;*/
-  right: 0;
-  left: 650px;
-}
-.info:before, .wrap:after{
-  /*background: url("/img/bgr.png");*/
-  bottom: 0;
-  content: " ";
-  z-index: -1;
-  top: 0;
-  position: absolute;
-}
-.wrap:after{
-  width: 100%;
-  left: 100%;
-}
+
 .info_section{
   margin-top:10px;
   padding:5px;
