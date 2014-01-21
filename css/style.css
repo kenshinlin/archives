@@ -94,6 +94,10 @@ visibility: hidden;
   /*overflow: hidden;*/
   position: relative;
 }
+
+.post_wrap{
+  width:760px;
+}
 .article h1{
 font-weight: bold;
 color: #38485a;
@@ -102,6 +106,10 @@ font-size: 2.2rem;
 .content{
   float: left;
   width: 632px;
+}
+
+.post_content{
+  width:auto;
 }
   .avatar span{
     color: rgba(34,59,74,.4);
