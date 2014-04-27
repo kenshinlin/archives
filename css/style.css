@@ -83,17 +83,15 @@ table {
 }
 .flink{padding-bottom: 3px;margin-bottom: 5px;}
 .friend-links span{color: rgba(34,59,74,.4);font-weight: 600;font-size: 14px;}
+
+.post-date{position: absolute;right: 0;top: 0;}
 }
 @media screen and (max-width:768px){
   body .wrap, h2{
     font-weight:normal;
   }
-  body,.idx-wrap{
+  body,.wrap{
      background:#E4F0F8;
-  }
-  .excerpt{
-    font-size:13px;
-    color:#999;
   }
   .friend-links{display:none;}
   .avatar span{color: rgba(78, 37, 241, 0.4);font-weight: 600;font-size: 14px;}
@@ -117,6 +115,7 @@ table {
   .self-info{
     padding:10px 0;
   }
+  .article-pre{display: none;}
 }
 
 a{ text-decoration:none;color:#259; -webkit-transition:color 0.2s ease-in-out; -moz-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out; }
@@ -142,6 +141,9 @@ pre{
 .small{
   color:#999;
   font-size:13px;
+}
+.relative{
+  position: relative;
 }
 blockquote{
   border-left: 4px solid #E5E9F8;
