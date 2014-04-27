@@ -74,7 +74,7 @@ table {
   padding:15px 10px 20px 20px;
 }
 .title-panel{padding:15px 0 5px;}
-.article-list h2{font-size:16px;}
+.article-title{font-size:16px;}
 .friend-links{ margin-top: 15px;}
 .friend-links ul{
   border-top: 2px solid gray;
