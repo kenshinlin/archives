@@ -1,20 +1,20 @@
 ---
-layout: sketch
+layout: index-layout
 title: kenshin blog
 isindex: 1
 ---
 
-<div class="idx-title-block"><i class="idx-title-icon"></i><h1>文章列表</h1></div>
-<ul class="idx-article-list">
+<div class="title-panel"><i class="title-icon"></i><h1>文章列表</h1></div>
+<ul class="article-list">
 　　{% for post in site.posts %}
 　　    <li>
 			<h2>
 				<a href="{{ post.url }}">{{ post.title }}</a>
-				<span class="idx-post-data">{{ post.date | date: "%Y年%m月%d日"}}</span>
+				<span class="post-date">{{ post.date | date: "%Y年%m月%d日"}}</span>
 			</h2>
-			<div class="excerpt">
+			<div class="article-pre">
 				{{ post.content | strip_html | truncate: 50 | replace: post.title, '' }}
 			</div>
-		</li>
+	</li>
 　　{% endfor %}
 </ul>
