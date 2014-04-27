@@ -10,7 +10,7 @@ isindex: 1
 　　    <li style="margin-top:-20px;">
 			<h2 class="relative">
 				<a href="{{ post.url }}" class="article-title">{{ post.title }}</a>
-				<span class="small post-date">{{ post.date | date: "%Y年%m月%d日"}}</span>
+				<span class="small post-date-rt">{{ post.date | date: "%Y年%m月%d日"}}</span>
 			</h2>
 			<div class="article-pre small">
 				{{ post.content | strip_html | truncate: 50 | replace: post.title, '' }}
