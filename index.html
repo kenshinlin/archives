@@ -10,9 +10,9 @@ isindex: 1
 　　    <li>
 			<h2>
 				<a href="{{ post.url }}">{{ post.title }}</a>
-				<span class="post-date">{{ post.date | date: "%Y年%m月%d日"}}</span>
+				<span class="small post-date">{{ post.date | date: "%Y年%m月%d日"}}</span>
 			</h2>
-			<div class="article-pre">
+			<div class="article-pre small">
 				{{ post.content | strip_html | truncate: 50 | replace: post.title, '' }}
 			</div>
 	</li>
