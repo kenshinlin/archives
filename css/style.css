@@ -85,6 +85,9 @@ table {
 .friend-links span{color: rgba(34,59,74,.4);font-weight: 600;font-size: 14px;}
 
 .post-date{position: absolute;right: 2px;top: 8px;}
+
+.post-wrap{max-width: 760px;}
+
 }
 @media screen and (max-width:768px){
   body .wrap, h2{
