@@ -1,10 +1,11 @@
 ---
 layout: post_layout
 title:  「摘」番茄时间管理法
+summary:  摘自[外刊IT评论](http://www.aqee.net/pomodoro-technique/)，实践一下...
 ---
 
 # {{page.title}}
-<div class="post-date">{{ page.date | date: "%Y年%m月%d日"}}</div>
+<div class="post-date">{{ page.date | date: "%Y年%m月%d日"}} <a href="http://iiris.us">kenshinlin</a></div>
 
 >  摘自[外刊IT评论](http://www.aqee.net/pomodoro-technique/)，实践一下
 
