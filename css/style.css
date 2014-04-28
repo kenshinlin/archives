@@ -166,7 +166,7 @@ pre{
   visibility: hidden;
 }
 
-.post-content {word-wrap: break-word;font-size: 16px;line-height: 1.8; max-width: 600px; margin:0 auto; padding-top: 20px;}
+.post-content {word-wrap: break-word;font-size: 16px;line-height: 1.8; margin:0 auto; padding-top: 20px;}
 .post-content a {text-decoration:underline;}
 .post-content img {max-width:100%;display:block;}
 .post-content p,
