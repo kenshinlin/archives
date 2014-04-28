@@ -1,10 +1,11 @@
 ---
 layout: post_layout
 title:  2013这一年
+summary:  今年回过头来想到的事情：叫外卖的公众号
 ---
 
 # {{page.title}}
-<div class="post-date">{{ page.date | date: "%Y年%m月%d日"}}</div>
+<div class="post-date">{{ page.date | date: "%Y年%m月%d日"}} <a href="http://iiris.us">kenshinlin</a></div>
 
 今年回过头来想到的事情：叫外卖的公众号、考驾照、由助理工程师升为工程师、开始做理财，以及那些虚一点的，就是思想上有些认识，慢慢建立起了以后（至少是最近的几年）怎么走的感觉，同时少了一些不安全感，少了一些浮躁，但仅仅是一些，不过我觉得这也不错。
 
