@@ -1,5 +1,5 @@
 ---
-layout: post_layout
+layout: post-layout
 title:  2013这一年
 summary:  今年回过头来想到的事情：叫外卖的公众号
 ---
