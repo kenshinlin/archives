@@ -1,5 +1,5 @@
 ---
-layout: sketch
+layout: post-layout
 title:  关于这个域名
 summary:  什么是域名，通常一个人与其手机号（或多个手机号）对应起来...
 ---
