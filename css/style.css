@@ -98,13 +98,14 @@ table {
   body,.wrap{
      background:#E4F0F8;
   }
+  .wrap{padding: 0 5px;}
   .friend-links{display:none;}
   .avatar span{color: rgba(78, 37, 241, 0.4);font-weight: 600;font-size: 14px;}
   .wrap{
     width:100%;
-    padding-top:30px;
+    /*padding-top:30px;*/
     position:relative;
-    margin-top:-18px;
+    /*margin-top:-18px;*/
   }
   .sider{
     position:absolute;
