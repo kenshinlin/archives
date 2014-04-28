@@ -1,5 +1,5 @@
 ---
-layout: post_layout
+layout: post-layout
 title:  「摘」番茄时间管理法
 summary:  摘自[外刊IT评论](http://www.aqee.net/pomodoro-technique/)，实践一下...
 ---
