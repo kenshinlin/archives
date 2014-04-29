@@ -7,6 +7,7 @@ isindex: 1
 <div class="title-panel"><i class="title-icon"></i><h1>文章列表</h1></div>
 <ul class="article-list">
 　　{% for post in site.posts %}
+　　	{% if post.draft != true %}
 　　    <li>
 			<h2 class="relative">
 				<a href="{{ post.url }}" class="article-title">{{ post.title }}</a>
@@ -16,5 +17,6 @@ isindex: 1
 				{{ post.summary }}
 			</div>
 	</li>
+	{% endif %}
 　　{% endfor %}
 </ul>
