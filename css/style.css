@@ -69,9 +69,6 @@ table {
 }
 
 .sider{
-  float:left;
-  margin-left: 0px;
-  max-width: 328px;
   padding:15px 10px 20px 20px;
 }
 .title-panel{padding:15px 0 5px;border-bottom:1px solid #ddd;}
@@ -96,29 +93,16 @@ table {
     font-weight:normal;
   }
   body,.wrap{
-     background:#fffefe;
+     /*background:#fffefe;*/
   }
   .post-content{padding: 0 6px; margin:-67px auto !important;}
-  .post-content h1{ margin: 0px -6px 5px; padding: 30px 0; text-align: center;background: #35c0c5;color: #fffefe;/*background-image:url(/img/post-title-bg.png)*/}
+  /*.post-content h1{ margin: 0px -6px 5px; padding: 30px 0; text-align: center;background: #35c0c5;color: #fffefe;}*/
   #disqus_thread{padding: 0 5px;}
-  .friend-links{display:none;}
-  .avatar span{color: rgba(78, 37, 241, 0.4);font-weight: 600;font-size: 14px;}
   .wrap{
     width:100%;
     padding-top:30px;
     position:relative;
     margin-top:-20px;
-  }
-  .sider{
-    position:absolute;
-    min-height:30px;
-    top:0;
-    left:0;
-    background-image:linear-gradient(#fff, #ECEBEB);
-    background-image:-webkit-linear-gradient(#fff, #ECEBEB);
-    background-image:-moz-linear-gradient(#fff, #ECEBEB);
-    text-align:center;
-    width:100%;
   }
   .self-info{
     padding:10px 0;
