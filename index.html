@@ -9,7 +9,7 @@ isindex: 1
 　　{% for post in site.posts %}
 　　	{% if post.draft != true && post.aboutme != true %}
 　　    <li>
-			<h2 class="relative" style="margin-left:-15px;">
+			<h2 class="relative clearfix" style="margin-left:-15px;">
 				<p><a href="{{ post.url }}" class="article-title col-xs-9">{{ post.title }}</a></p>
 				<p class="small col-xs-3">{{ post.date | date: "%Y年%m月%d日"}}</p>
 			</h2>
