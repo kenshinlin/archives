@@ -7,11 +7,11 @@ isindex: 1
 <div class="title-panel"><i class="title-icon"></i><h1>文章列表</h1></div>
 <ul class="article-list">
 　　{% for post in site.posts %}
-　　	{% if post.draft != true %}
+　　	{% if post.draft != true && post.aboutme != true %}
 　　    <li>
 			<h2 class="relative">
-				<a href="{{ post.url }}" class="article-title">{{ post.title }}</a>
-				<span class="small post-date-rt">{{ post.date | date: "%Y年%m月%d日"}}</span>
+				<p><a href="{{ post.url }}" class="article-title">{{ post.title }}</a></p>
+				<p class="small col-xs-2 col-xs-offset-10">{{ post.date | date: "%Y年%m月%d日"}}</p>
 			</h2>
 			<div class="article-pre small">
 				{{ post.summary }}
